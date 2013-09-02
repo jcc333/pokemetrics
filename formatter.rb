@@ -36,9 +36,22 @@ class Formatter
     temp_file = Tempfile.new('delete_column_temp')
     File.open(@file_path, 'r') do |file|
       file.each_line do |line|
-        replacement_line = line.split(',')
+        replacement_line = line.split(', ')
         replacement_line.delete_at(column_index)
-        temp_file.puts replacement_line.join(',')
+        temp_file.puts replacement_line.join(', ')
+      end
+      temp_file.rewind
+      FileUtils.mv(temp_file.path, @file_path)
+    end
+  end
+
+  def add_column(column_name, column_index, value_proc)
+    temp_file = Tempfile.new('add_column_temp')
+    File.open(@file_path, 'r') do |file|
+      file.each_line do |line|
+        line_array = line.split(',')
+        line_array.insert(column_index, value_proc.call(replacement_line))
+        temp_file.puts line_array.join(',')
       end
       temp_file.rewind
       FileUtils.mv(temp_file.path, @file_path)
