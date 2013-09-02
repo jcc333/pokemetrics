@@ -3,6 +3,6 @@ begin
 
   theFormatter = Formatter.new("pokedex.csv")
 
-  theFormatter.toCSV()
+  theFormatter.to_CSV()
 end
 
