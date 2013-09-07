@@ -18,6 +18,10 @@ data Type = Normal
           | Dragon
           deriving(Show, Read)
 
+generationOneTypes = [Normal, Fight, Flying, Poison, Ground,
+                      Rock, Bug, Ghost, Fire, Water,
+                      Grass, Electric, Psychic, Ice, Dragon]
+
 readTypeString :: [Char] -> [Type]
 readTypeString typeString = map (\s->read s::Type) $ splitOn "/" typeString
 

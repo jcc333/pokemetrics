@@ -27,7 +27,7 @@
 026, Raichu, 60, 90, 55, 90, 80, 100, Electric
 027, Sandshrew, 50, 75, 85, 20, 30, 40, Ground
 028, Sandslash, 75, 100, 110, 45, 55, 65, Ground
-029, Nidoran, 55, 47, 52, 41, 40, 40, 41, Poison 
+029, Nidoran, 55, 47, 52, 41, 40, 41, Poison
 030, Nidorina, 70, 62, 67, 55, 55, 56, Poison
 031, Nidoqueen, 90, 82, 87, 75, 85, 76, Poison/Ground
 032, Nidoran, 46, 57, 40, 40, 40, 50, Poison
@@ -54,19 +54,19 @@
 053, Persian, 65, 70, 60, 65, 65, 115, Normal
 054, Psyduck, 50, 52, 48, 65, 50, 55, Water
 055, Golduck, 80, 82, 78, 95, 80, 85, Water
-056, Mankey, 40, 80, 35, 35, 45, 70, Fighting
-057, Primeape, 65, 105, 60, 60, 70, 95, Fighting
+056, Mankey, 40, 80, 35, 35, 45, 70, Fight
+057, Primeape, 65, 105, 60, 60, 70, 95, Fight
 058, Growlithe, 55, 70, 45, 70, 50, 60, Fire
 059, Arcanine, 90, 110, 80, 100, 80, 95, Fire
 060, Poliwag, 40, 50, 40, 40, 40, 90, Water
 061, Poliwhirl, 65, 65, 65, 50, 50, 90, Water
-062, Poliwrath, 90, 85, 95, 70, 90, 70, Water/Fighting 
+062, Poliwrath, 90, 85, 95, 70, 90, 70, Water/Fight 
 063, Abra, 25, 20, 15, 105, 55, 90, Psychic
 064, Kadabra, 40, 35, 30, 120, 70, 105, Psychic
 065, Alakazam, 55, 50, 45, 135, 85, 120, Psychic
-066, Machop, 70, 80, 50, 35, 35, 35, Fighting
-067, Machoke, 80, 100, 70, 50, 60, 45, Fighting
-068, Machamp, 90, 130, 80, 65, 85, 55, Fighting
+066, Machop, 70, 80, 50, 35, 35, 35, Fight
+067, Machoke, 80, 100, 70, 50, 60, 45, Fight
+068, Machamp, 90, 130, 80, 65, 85, 55, Fight
 069, Bellsprout, 50, 75, 35, 70, 30, 40, Grass/Poison
 070, Weepinbell, 65, 90, 50, 85, 45, 55, Grass/Poison
 071, Victreebel, 80, 105, 65, 100, 60, 70, Grass/Poison
@@ -104,8 +104,8 @@
 103, Exeggutor, 95, 95, 85, 125, 65, 55, Grass/Psychic
 104, Cubone, 50, 50, 95, 40, 50, 35, Ground
 105, Marowak, 60, 80, 110, 50, 80, 45, Ground
-106, Hitmonlee, 50, 120, 53, 35, 110, 87, Fighting
-107, Hitmonchan, 50, 105, 79, 35, 110, 76, Fighting
+106, Hitmonlee, 50, 120, 53, 35, 110, 87, Fight
+107, Hitmonchan, 50, 105, 79, 35, 110, 76, Fight
 108, Lickitung, 90, 55, 75, 60, 75, 30, Normal
 109, Koffing, 40, 65, 95, 60, 45, 35, Poison
 110, Weezing, 65, 90, 120, 85, 70, 60, Poison
